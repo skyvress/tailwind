@@ -7,7 +7,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #e0d9ce ;
     color: #332a38;
@@ -17,6 +16,7 @@ header {
     background-color: #612942;
     color: #F9F8F0;
     text-align: center;
+        font-family: "New Century Schoolbook", "TeX Gyre Schola", "serif";
 }
 
 header img {
@@ -30,7 +30,7 @@ header h1 {
     margin: 0;
     padding: 18px;
     font-size: 30px;
-    font-family: 'Arial Black', sans-serif;
+    font-family: "New Century Schoolbook", "TeX Gyre Schola", "serif";
 }
 
 nav {
@@ -68,11 +68,6 @@ main {
     border: 1px solid #e9e1ec;
     border-radius: 10px;
     box-shadow: 0 3px 10px #2200220d;
-}
-
-main h2 {
-    margin-top: 0;
-    color: #0da3b0;
 }
 
 main p {
